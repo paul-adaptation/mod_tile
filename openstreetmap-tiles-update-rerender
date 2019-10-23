@@ -22,7 +22,7 @@ OSM2PGSQL_BIN=osm2pgsql
 TRIM_BIN=/home/$ACCOUNT/src/regional/trim_osc.py
 
 DBNAME=gis
-OSM2PGSQL_OPTIONS="-d $DBNAME --tag-transform-script /home/renderaccount/src/SomeoneElse-style/style.lua"
+OSM2PGSQL_OPTIONS="-d $DBNAME"
 #------------------------------------------------------------------------------
 # When using trim_osc.py we can define either a bounding box (such as this
 # example for England and Wales) or a polygon.
